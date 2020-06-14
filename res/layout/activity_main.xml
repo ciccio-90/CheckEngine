@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/textViewWellcome"
+	        android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent" 
+    		android:gravity="center"
+	        android:layout_marginTop="15dp"
+	        android:text="@string/TextViewWellcome"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    
+	    <Button
+	        android:id="@+id/buttonStart"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="50dp"
+	        android:text="@string/ButtonStart"
+	        android:drawableStart="@drawable/avvia"
+	        android:drawableLeft="@drawable/avvia" />
+	   
+	</LinearLayout>
+	
+</ScrollView>

@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/textViewOutput"
+	        android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent" 
+    		android:gravity="center"
+	        android:layout_marginTop="15dp"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dp"
+	        android:orientation="horizontal" >
+
+	        <Button
+	            android:id="@+id/buttonRiavvio"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:drawableLeft="@drawable/riavvia"
+	            android:drawableStart="@drawable/riavvia"
+	            android:text="@string/ButtonRiavvio" />
+	        
+	        <Button
+	            android:id="@+id/buttonSpiegazione"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:drawableLeft="@drawable/spiega"
+	            android:drawableStart="@drawable/spiega"
+	            android:text="@string/ButtonSpiegazione" />
+
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dp"
+	        android:orientation="horizontal" >
+	    
+		    <Button
+		        android:id="@+id/buttonAiuto"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.5"
+		        android:text="@string/ButtonAiuto"
+		        android:drawableStart="@drawable/aiuto"
+		        android:drawableLeft="@drawable/aiuto" />
+		    
+		    <Button
+		        android:id="@+id/buttonGlossario"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.5"
+		        android:text="@string/ButtonGlossario"
+		        android:drawableStart="@drawable/glossario"
+		        android:drawableLeft="@drawable/glossario" />
+	    
+		</LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dp"
+	        android:orientation="horizontal" >
+	    
+		    <Button
+		        android:id="@+id/buttonSi"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.5"
+		        android:text="@string/ButtonSi"
+		        android:drawableStart="@drawable/si"
+		        android:drawableLeft="@drawable/si" />
+		    
+		    <Button
+		        android:id="@+id/buttonNo"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.5"
+		        android:text="@string/ButtonNo"
+		        android:drawableStart="@drawable/no"
+		        android:drawableLeft="@drawable/no" />
+		    
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dp"
+	        android:orientation="horizontal" >
+	    
+		    <Button
+		        android:id="@+id/buttonIndietro"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.5"
+		        android:text="@string/ButtonIndietro"
+		        android:drawableStart="@drawable/indietro"
+		        android:drawableLeft="@drawable/indietro" />
+		    
+		    <Button
+		        android:id="@+id/buttonEsci"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.5"
+		        android:text="@string/ButtonEsci"
+		        android:drawableStart="@drawable/uscita"
+		        android:drawableLeft="@drawable/uscita" />
+		    
+		</LinearLayout>
+	    
+	</LinearLayout>
+	
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check Engine</string>
+    <string name="description">Splash Screen</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="title_activity_main">Check Engine</string>
+    <string name="TextViewWellcome">Benvenuto in Check Engine, app esperta nella diagnosi di guasti in un motore common rail!</string>
+    <string name="ButtonStart">\tAvvia</string>
+    <string name="title_activity_check_engine_view_model">Check Engine</string>
+    <string name="ButtonRiavvio">\tRiavvia</string>
+	<string name="ButtonSpiegazione">\tPerchè</string>
+	<string name="ButtonAiuto">\tGuida</string>
+	<string name="ButtonGlossario">\tDizionario</string>
+	<string name="ButtonIndietro">\tIndietro</string>
+	<string name="ButtonEsci">\tEsci</string>
+	<string name="ButtonSi">\tSi</string>
+    <string name="ButtonNo">\tNo</string>
+	
+</resources>
